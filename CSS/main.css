@@ -188,6 +188,7 @@ menu{
     margin-bottom: 110px;
 }
 @media only screen and (max-width: 800px){
- .center{width: 500px;}   
+ .center{width: 500px;}
+ .nav{font-size: 1.5vw;}   
 }
 
