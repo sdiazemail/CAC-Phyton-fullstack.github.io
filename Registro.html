@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27bab8867f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Las recets de Bruno</title>
+</head>
+<body>
+    <header>
+        <br>
+        <nav>
+         <a href="index.html" class="nav">Home</a>
+         <a href="about.html" class="nav">Acerca de mi</a>
+         <a href="contact.html" class="nav">Contacto</a>
+         <a href="sucursales.html" class="nav">Sucursales</a>
+         <a href="registro.html" class="nav">Registrarse</a>
+        </nav>
+         <h1>Las recetas de Bruno</h1>
+         <br>
+     </header>
+    <h2>Formulario para registrarse</h2>
+    <form action="/datosusuario" method="get">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="Nombre"  name="Nombre" placeholder="Ingrese su Nombre..."><br><br>
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese su Apellido..."><br><br>
+        <label for="fecnac">Fecha de nacimiento</label>
+        <input type="date" id="fecnac" name="fecnac"><br><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo..."><br><br>
+        <fieldset>
+            <legend>Domicilio</legend>
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección..."><br><br>
+            <label for="Ciudad">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad" placeholder="Ingrese la ciudad..."><br><br>
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" name="provincia">
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+            </select>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Género</legend>
+            <input type="radio" name="genero" id="hombre" value="hombre"> Hombre
+            <input type="radio" name="genero" id="mujer" value="mujer"> Mujer
+            <input type="radio" name="genero" id="nombinario" value="nobinario"> No Binario
+            <input type="radio" name="genero" id="nc" value="nc">No contesta
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Marque los Newletters que desea recibir</legend>
+            <input type="checkbox" name="newsletters" id="recetasnuevas" value="recetasnuevas"> Recetas Nuevas
+            <input type="checkbox" name="newsletters" id="cursos" value="cursos">Cursos
+            <input type="checkbox" name="newsletters" id="eventos" value="eventos">Eventos
+        </fieldset>
+        <br>
+        <input type="reset" name="borrar" id="borrar" value="Borrar formulario">
+        <input type="submit" name="submit" id="submit">
+        <br><br>
+    </form>
+    <footer>
+        <br>
+        <a href="http://www.twitter.com"><i class="fa-brands fa-x-twitter" id="icon"></i></a> 
+        <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f" id="icon"></i></a>
+        <a href="http://www.instagrm.com"><i class="fa-brands fa-instagram" id="icon"></i></a>
+        <a href="http://www.tiktok.com"><i class="fa-brands fa-tiktok" id="icon"></i></a>
+        <br>
+        <p>Titopatata @2024</p>
+        <br>
+    </footer>
+</body>
+</html>
