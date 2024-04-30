@@ -30,6 +30,18 @@ nav{
 nav a:hover{
     animation: colornav 1s ease 0s infinite alternate;
 }
+.link{
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 0,3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 @keyframes colornav {
     from {background-color: grey;}
     to {background-color: rgb(73, 60, 60);}
@@ -186,8 +198,8 @@ menu{
 }
 @media only screen and (max-width: 800px){
  .center{width: 500px;}
- .nav{font-size: 2vw;}
- img{width: 80%;} 
+ .nav{font-size: 3vw;}
+ img{width: 90%;} 
    
 }
 
