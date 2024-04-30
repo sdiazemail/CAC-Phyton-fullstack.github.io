@@ -35,9 +35,6 @@ nav a:hover{
     to {background-color: rgb(73, 60, 60);}
 }
 
-a:hover{
-    background-color: blue
-}
 footer{
     background-color: black;
     color: white;
@@ -189,6 +186,8 @@ menu{
 }
 @media only screen and (max-width: 800px){
  .center{width: 500px;}
- .nav{font-size: 1.5vw;}   
+ .nav{font-size: 2vw;}
+ img{width: 80%;} 
+   
 }
 
